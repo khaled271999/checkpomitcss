@@ -1,0 +1,140 @@
+*{
+  font-family: 'Sono', sans-serif
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li label {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  
+  li input {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration-color: black;
+    padding: 14px 16px;
+    width: 150%;
+   
+    
+  }
+  input:hover {
+    background-color: aqua;
+  }
+ 
+  
+  a:hover:not(.active) {
+    background-color:aqua;
+    
+  }
+  
+  .active {
+    background-color:aqua;
+  }
+
+  .footer{
+    display: block;
+    background-color: beige;
+   
+  }
+
+  footer ul {
+    background-color:aliceblue;
+    
+
+}
+footer li{
+    float: none;
+
+}
+ footer li a{
+    
+    color: rgb(14, 14, 14);
+    text-align: left;
+}
+
+
+.myphoto{
+    border-radius: 10%;
+    margin: 1%;
+    width: 50%;
+    align-content: center;
+    background-color: aliceblue;
+    box-shadow: 10px 15px aqua;
+  } 
+
+nav {
+  position: fixed;
+  width: 100%;
+
+ 
+  
+  
+}
+.mydiv{
+  padding-top: 5%;
+  padding-bottom: 3%;
+  align-items: center;
+  display: flex;
+  
+}
+.my-text1{
+  text-align: center;
+  width: 20%;
+  padding-left: 15%;
+}
+.audio-box{
+  height: 20px;
+  width: 250px; 
+  
+}
+.funnythingtitle{
+
+  text-align: center;
+  background-color: aqua;
+  padding: 3%;
+  
+}
+.myVideo{
+
+  border-radius: 10%;
+  margin: 1%;
+  width: 50%;
+  background-color: aliceblue;
+  box-shadow: 10px 15px aqua;
+  align-items: center;
+}
+.mydivVIDEO{
+  padding-top: 2%;
+  padding-bottom: 3%;
+  align-items: center;
+  display: flex;
+ 
+}
+
+.divinfo{
+  align-items: center;
+
+}
